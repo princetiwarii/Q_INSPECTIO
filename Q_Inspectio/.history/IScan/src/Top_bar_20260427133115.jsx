@@ -1,0 +1,18 @@
+import React from 'react'
+import logo from "./assets/logo.avif"
+
+const Top_bar = () => {
+  return (
+    <div class=" w-full font-sans px-6 py-2 border-b border-gray-400 shadow-md bg-[#fbfbfc]">
+      <div>
+        <img src={logo} alt="logo" class="w-4 h-auto"></img>
+      </div>
+      <div>
+      <h1 className="text-3xl"><b>IScan</b></h1>
+      <p className="text-md text-black/50">AI-powered welding defect detection</p>
+      </div>
+    </div>
+  )
+}
+
+export default Top_bar
